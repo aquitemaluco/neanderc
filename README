@@ -8,8 +8,8 @@ make
 Após a compilação do Neander para executa-lo, caso necessario torne-o
 executavel com o comando:
 
-chmod +x neander
+chmod +x neanderc
 
 E então chama-lo pelo console:
 
-./neander
+./neanderc
