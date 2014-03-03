@@ -1,0 +1,15 @@
+Simulador Neander
+
+Para compilar o Simulador Neander, entre no diretorio dos arquivos fonte
+do neander e rode o comando:
+
+make
+
+Após a compilação do Neander para executa-lo, caso necessario torne-o
+executavel com o comando:
+
+chmod +x neander
+
+E então chama-lo pelo console:
+
+./neander
