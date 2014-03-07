@@ -136,7 +136,7 @@ void nfstatus(PNPROC p)
 	//Atualiza registrador de nfstatus
 	p->s = CLSTATUS;
 	((p->ac == 0) && (p->s = (p->s | Z))) ||
-	((p->ac <  0) && (p->s = (p->s | N)));
+	((p->ac >  127) && (p->s = (p->s | N)));
 }
 void nfnop(PNPROC p) {
 	//Perde um ciclo de maquina
